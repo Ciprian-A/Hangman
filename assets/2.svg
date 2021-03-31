@@ -1,0 +1,21 @@
+<svg width="321" height="348" viewBox="0 0 321 348" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M58.4449 8.42711L223.016 6.10985" stroke="black" stroke-width="12" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M99.2346 6.10985L100.626 345.393" stroke="black" stroke-width="12" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M100.249 54.0997L161.125 6.11421" stroke="black" stroke-width="12" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M1 342L320 340" stroke="black" stroke-width="12" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M7.80954 341.338L100.626 248.7" stroke="black" stroke-width="12" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M99.2346 246.968L215.674 340.205" stroke="black" stroke-width="12" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M181.353 147.547C181.353 122.944 190.933 103 202.752 103C208.427 103 213.87 107.693 217.883 116.048C221.896 124.402 224.146 134.883 224.146 146.698C224.146 171.3 214.57 176.567 202.752 176.567C190.933 176.567 181.353 172.15 181.353 147.547Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M181.353 146.975C181.353 122.688 190.83 103 202.52 103C208.133 103 213.517 107.633 217.487 115.88C221.456 124.127 223.686 135.312 223.686 146.975C223.686 171.262 214.21 177 202.52 177C190.83 177 181.353 171.262 181.353 146.975Z" stroke="black" stroke-miterlimit="10" stroke-linejoin="round"/>
+<ellipse cx="202" cy="119.5" rx="2" ry="1.5" fill="#C4C4C4"/>
+<ellipse cx="202" cy="135.5" rx="2" ry="1.5" fill="#C4C4C4"/>
+<ellipse cx="202" cy="119.5" rx="2" ry="1.5" fill="#C4C4C4"/>
+<ellipse cx="202" cy="128.5" rx="2" ry="1.5" fill="#C4C4C4"/>
+<path d="M203.317 8.42711V57.0635" stroke="black" stroke-width="8" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M220.5 79.5C220.5 85.8891 218.516 91.655 215.331 95.813C212.147 99.9705 207.782 102.5 203 102.5C198.218 102.5 193.853 99.9705 190.669 95.813C187.484 91.655 185.5 85.8891 185.5 79.5C185.5 73.1109 187.484 67.345 190.669 63.187C193.853 59.0295 198.218 56.5 203 56.5C207.782 56.5 212.147 59.0295 215.331 63.187C218.516 67.345 220.5 73.1109 220.5 79.5Z" fill="#D5A0A0" fill-opacity="0.68" stroke="black"/>
+<path d="M194.21 69.981L195.265 68.2451H196.214L194.659 70.5962L196.263 73H195.322L194.224 71.2202L193.125 73H192.18L193.784 70.5962L192.229 68.2451H193.169L194.21 69.981Z" fill="black"/>
+<path d="M211.21 69.981L212.265 68.2451H213.214L211.659 70.5962L213.263 73H212.322L211.224 71.2202L210.125 73H209.18L210.784 70.5962L209.229 68.2451H210.169L211.21 69.981Z" fill="black"/>
+<line x1="204.432" y1="73.2519" x2="197.432" y2="85.2519" stroke="black"/>
+<path d="M208 92.5C206.961 90.0387 199.831 86.2788 197 92.5" stroke="black"/>
+<line x1="205" y1="85.5" x2="197" y2="85.5" stroke="black"/>
+</svg>

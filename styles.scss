@@ -1,0 +1,148 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  h1 {
+    text-align: $position1;
+    margin: $size2 * 1.5 auto;
+  }
+}
+
+article {
+  width: $percentage1;
+  height: $percentage1;
+  display: flex;
+  margin: auto;
+
+  .fact {
+    width: $percentage1 / 2;
+    background-color: $quarternary;
+    padding: $size2 / 2;
+
+    h3 {
+      text-align: $position1;
+      margin: auto;
+      padding: $size2 / 2;
+      background-color: $secondary;
+      color: $quarternary;
+      border: $size3 *2 solid $quarternary;
+      border-radius: $radius1;
+    }
+
+    p {
+      margin: $size2 * 2 auto;
+      width: $percentage1 * 0.8;
+      letter-spacing: $size2 / 9;
+      line-height: $size2 * 2;
+      display: flex;
+      align-items: $position1;
+      color: $secondary;
+    }
+  }
+  .game {
+    width: $percentage1 / 2;
+    position: relative;
+    padding: $size2 / 2;
+    background-color: $secondary;
+    border: $size3 *2 solid $quarternary;
+
+    h3 {
+      text-align: $position1;
+      margin: auto;
+      padding: $size2 / 2;
+      background-color: $quarternary;
+      color: $secondary;
+      border-radius: $radius1;
+    }
+
+    img {
+      margin: $size2 * 2 auto;
+      width: $percentage1 * 0.3;
+      display: flex;
+      align-items: $position1;
+    }
+
+    p {
+      text-align: center;
+      padding: $size2 / 2;
+      font-size: $size2 * 1.5;
+    }
+  }
+  
+ 
+  #keyboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: $size3 * 4 auto;
+
+  }
+  .btn {
+    background-color: $quarternary;
+    color: $secondary;
+    width: $size2 * 2;
+    height: $size2 * 2.5;
+    border-radius: $radius1;
+    margin: $size3;
+    font-size: $size2 * 1.5;
+   
+
+
+    &:hover {
+      cursor: pointer;
+      background-color: $secondary;
+      color: $quarternary;
+    }
+  }
+}
+
+.reset-btn {
+  background-color: $quarternary;
+  color: $secondary;
+  padding: $size2 / 2;
+  border-radius: $radius1;
+  font-size: $size2;
+  margin: $size3 * 4 auto;
+  width: $size1 * 2;
+  justify-content: center;
+  display: flex;
+  letter-spacing: $size2 / 2.5;
+  font-weight: 700;
+  font-size: $size2 *2;
+  border: $size3 solid $quarternary;
+  outline: none;
+
+
+  &:hover {
+    cursor: pointer;
+    background-color: $secondary;
+    color: $quarternary;
+    border: $size3 solid $quarternary;
+  }
+
+
+}
+
+
+@media screen and (max-width: 778px) {
+  article {
+    display: block;
+    width: $percentage1;
+
+    .fact {
+      width: $percentage1;
+    }
+    .game {
+      width: $percentage1;
+    }
+  }
+}
+

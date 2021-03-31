@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Hangman Game made with Vanilla Javascript, HTML and SCSS">
+  <meta name="keywords" content="HTML, SCSS, JavaScript">
+  <meta name="author" content="Ciprian A.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./assets/hnew.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <script async src='index.js'></script>
+  <title>Hangman Game | Vanilla Javascript</title>
+</head>
+
+<body>
+  <h1>Hangman Game</h1>
+  <article>
+    <section class="fact">
+      <h3>Hangman Game Fact:</h3>
+      <p>
+        In 17th and 18th century Europe, criminals who were sentenced to death by hanging could demand the "Rite of
+        Words and Life."
+
+        In the "Rite of Words and Life" a criminal to be hanged was strung up over a 5 legged stand, and a board with a
+        series of short ropes representing a word was displayed. The Executioner would pick the word, and would use
+        charcoal to mark correctly guessed letters on the dashes of the board, and incorrect letters to the side. At
+        every incorrect guess the executioner would use a sledge hammer or axe to knock away a single leg of the stand.
+        5 wrong guesses, and the criminal was hanged. If the entire word was filled in correctly or guessed, the
+        condemned would be set free from that sentence and not tried again on that crime.
+      </p>
+    </section>
+    <section class="game">
+      <h3>Failed Attempts:
+        <span id='mistakes'>0</span> of <span id='maxWrong'>6</span>
+      </h3>
+      <img id='hangman-img' src="./assets/6.svg" alt="hangman">
+      <p>Guess the city from UK</p>
+      <p id="city-name">Press the "PLAY" button to start the game</p>
+      <section id="keyboard"></section>
+      <button class="reset-btn" onClick="resetGame()">PLAY</button>
+    </section>
+  </article>
+
+
+</body>
+
+</html>
